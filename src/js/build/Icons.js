@@ -16,7 +16,7 @@ async function buildIcons () {
     let icons = await getIcons();
 
     await Promise.all(
-        icons.flatMap( async ({ svg, componentName }) => {
+        icons.map( async ({ svg, componentName }) => {
             await fs.writeFile(`./src/js/components/icons/${componentName}.vue`, createdTemplate(svg, componentName));
         })
     )

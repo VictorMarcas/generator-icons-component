@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack serve --open --config webpack.dev.js",
     "prod": "webpack --config webpack.prod.js",
-    "generate:icons": "node ./js/build/icons.js"
+    "generate:icons": "node ./src/js/build/Icons.js"
   },
   "keywords": [],
   "author": "@VictorAlberto87",
