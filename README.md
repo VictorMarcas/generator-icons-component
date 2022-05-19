@@ -1,9 +1,14 @@
-# Skelenton Project Vue
-A full featured Webpack 5 setup with hot-reload and extraction compiles files
+# Generator Icons Components
+There is the need to add icons in our vue components and it is very tedious to be adding all the code of a svg when needed, in that case I have chosen to create a script based on **Heroicons** to generate my icons in components and to import them when I need them.
+
+I understand that this is a simple code, it is still a demo.
 
 ## Plugins
 - Vue 2.6, for single file Vue components
 - Tailwindcss 3.0
+
+## Dependencies
+- Camelcase
 
 ## Start project
 ``` bash
@@ -21,8 +26,3 @@ config file `webpack.prod.js`
 ``` bash
 $ npm run prod
 ```
-
-### Production ready build.
-- JavaScript minified
-- HTML minified
-- CSS minified
